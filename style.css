@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh; 
+    margin: 0; 
+    background-color:white; 
+    
+  
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    min-height: 80vh;
+    background-color: #121111; 
+    flex-direction: column;
+    background-image: url('./assets/images/preview.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.botones {
+    background-color: #1F1F1F;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    margin: 0; 
+    max-width: 400px;
+    max-height: 500px;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+    border-radius: 8px; 
+}
+
+
+.imagen img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%; 
+    display: block;
+    
+    
+}
+
+.imagen {
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+     
+    }
+
+.datos{
+    justify-content: center;
+    text-align: center;   
+    display: flex;
+    flex-direction: column;
+}
+.pais{
+    color: #C6F727;
+    font-size: 10px;
+}
+
+.redes{
+
+    background-color: #1F1F1F;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 0;
+    color: aliceblue;
+    margin: 10px;
+}
+button {
+    background-color: #333333;  
+    color: azure;                       
+    padding: 10px; /* Reduce el padding para ajustar el tamaño */
+    border: none;                       
+    outline: none;                      
+    width: 200px; /* Ancho fijo */
+    height: 40px; /* Altura fija */
+    transition: background-color 0.3s; 
+    cursor: pointer; 
+    font-size: 8px;
+    display: flex; /* Activa flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    border-radius: 5px;
+}
+  
+  button:hover {
+    background-color: #C6F727;         
+  }
+  
+  button:active {
+    background-color: #ff0000;          
+  }
+
+  .titulo{
+    font-size: 10px;
+  }
+  .nombre{
+    font-size: 20px;
+  }
